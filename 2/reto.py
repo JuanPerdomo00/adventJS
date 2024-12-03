@@ -1,6 +1,3 @@
-from sys import stdout
-
-
 def createFrame(names):
     # Code here
     # ***************
