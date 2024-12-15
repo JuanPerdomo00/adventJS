@@ -13,8 +13,6 @@ def createFrame(names):
     # * educalvolpz *
     # ***************
 
-
-
     # big_str_inarr: int = len(max(names, key=len))
     # frame = [
     #     2 * "*" + big_str_inarr * "*" + 2 * "*",
@@ -31,8 +29,6 @@ def createFrame(names):
     framed_names = [f"* {i.ljust(big_str_inarr)} *" for i in names]
     frame = [border] + framed_names + [border]
     return "\n".join(frame)
-
-
 
 
 if __name__ == "__main__":

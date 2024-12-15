@@ -1,5 +1,6 @@
 from typing import List
 
+
 def draw_rice(indices: List[int], length: int):
     lone, reindeer, spaces = (
         ["~"] * length,
