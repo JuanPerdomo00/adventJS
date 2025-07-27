@@ -5,7 +5,10 @@ description = "I l!k€ cØmpliX!ty̸̨▓▒ ɪ 🧠 ʞ⨀ i̶v!r̸̃⚠⚡👾
 authors = [
     { name = "Juan Perdomo [Jakepy]", email = "perdomojuan187@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "matplotlib>=3.9.3",
+    "pyqt5>=5.15.11",
+]
 readme = "README.md"
 requires-python = ">= 3.11"
 
