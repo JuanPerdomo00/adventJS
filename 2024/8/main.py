@@ -10,9 +10,9 @@ def draw_rice(indices: List[int], length: int):
     race = [
         spaces[i] * " "
         + "".join(lone[: indices[i]] + [reindeer] + lone[indices[i] + 1 :])
-        + f" /{i+1}"
+        + f" /{i + 1}"
         if indices[i] != 0
-        else spaces[i] * " " + "".join(lone) + f" /{i+1}"
+        else spaces[i] * " " + "".join(lone) + f" /{i + 1}"
         for i in range(len(indices))
     ]
     return "\n".join(race)

@@ -8,7 +8,7 @@
 #    reindeer: Un array de enteros que representan las posiciones de los renos.
 #    stables: Un array de enteros que representan las posiciones de los establos.
 #
-# Hay que mover cada reno, desde su posición actual, hasta un establo. 
+# Hay que mover cada reno, desde su posición actual, hasta un establo.
 # Pero hay que tener en cuenta que sólo puede haber un reno por establo.
 #
 # Tu tarea es calcular el mínimo número de movimientos necesarios para que todos los renos acaben en un establo.
@@ -21,6 +21,7 @@ def min_moves_to_stables(reindeer, stables):
     reindeer = sorted(reindeer)
     stables = sorted(stables)
     return sum([abs(stables[i] - reindeer[i]) for i in range(len(reindeer))])
+
 
 if __name__ == "__main__":
     print(min_moves_to_stables([2, 6, 9], [3, 8, 5]))  # 3

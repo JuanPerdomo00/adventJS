@@ -1,5 +1,6 @@
 import re
 
+
 def find_in_agenda(agenda: str, phone: str) -> dict | None:
     # Code here
     lines = agenda.split("\n")

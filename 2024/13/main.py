@@ -85,7 +85,6 @@ def is_robot_back(moves: str) -> bool | list[int]:
     return True if copy_origen == origen else copy_origen
 
 
-
 def test():
     print(is_robot_back("R"), [1, 0])
     assert is_robot_back("R") == [1, 0]
