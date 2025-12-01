@@ -25,3 +25,8 @@ allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/adventjs"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.7",
+]
