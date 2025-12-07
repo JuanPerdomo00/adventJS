@@ -11,13 +11,10 @@ def draw_gift(size: int, symbol: str) -> str:
 
 
 if __name__ == "__main__":
-    for gf in range(1, 10):
-        print(f"Size: {gf}")
-        print(draw_gift(gf, '#'))
 
     colors = ["\033[90m", "\033[97m", "\033[96m", "\033[91m", "\033[94m"]
     res = "\033[00m"
-    while False:
+    while True:
         terminal_width = os.get_terminal_size().columns
 
         for i in range(1, terminal_width + 1, 2):
